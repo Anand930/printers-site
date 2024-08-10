@@ -3,7 +3,7 @@ import React from "react";
 const ServiceItems = ({ src, serviceDescription }) => {
   return (
     <div className=" ">
-      <div className="border-2 border-blue-800 bg-blue-200 ">
+      <div className="rounded-2xl border-2 border-blue-800 bg-blue-200 ">
         <img src={src} alt={src} />
       </div>
 

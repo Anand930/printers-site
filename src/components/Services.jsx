@@ -12,7 +12,7 @@ const Services = () => {
             Our Services
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-20">
+        <div className="m-10 grid grid-cols-3 gap-20">
           <ServiceItems src={printerRepair}  serviceDescription={"Printer Repairing"}/>
           <ServiceItems src={cartilageRefiling}  serviceDescription={"Printer Repairing"}/>
           <ServiceItems src={cartilageRefiling}  serviceDescription={"Printer Repairing"}/>

@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         display: "lexend",
+        logo:"satisfy"
       },
       
     },
