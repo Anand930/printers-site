@@ -3,7 +3,7 @@ import AboutItems from "./AboutItems";
 
 const About = () => {
   return (
-    <div className="max-w-7xl m-auto">
+    <div className="max-w-7xl m-auto" id="about">
       <div className="flex items-center justify-center">
         <p className="font-display text-5xl m-10 font-extrabold text-blue-700">
           About Us

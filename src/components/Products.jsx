@@ -7,7 +7,7 @@ import kyocera from "../assets/img/kyocera.png";
 
 const Products = () => {
   return (
-    <div className="">
+    <div className="" id="product">
       <div className="flex flex-col max-w-7xl m-auto items-center justify-center animate-slide-top  ">
         <p className="font-display text-5xl m-10 font-extrabold text-blue-700">
           Our Products

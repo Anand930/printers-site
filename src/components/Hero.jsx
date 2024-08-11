@@ -14,8 +14,8 @@ const Hero = () => {
       <Header />
       <div className="flex flex-col items-center justify-center h-[70vh] max-w-7xl m-auto ">
         <div className="flex items-center justify-center w-[85%]  ">
-          <strong className="font-display text-8xl tracking-normal leading-snug text-center mt-20 mb-4 text-blue-500 ">
-            Transforming Printing with
+          <strong className="font-display text-8xl  leading-snug text-center mt-20 mb-4 text-blue-500 ">
+            <p className="tracking-tight">Transforming Printing with</p>
             <div>
               <span className="text-red-500">
                 <ReactTyped
@@ -23,8 +23,8 @@ const Hero = () => {
                   strings={[
                     "Reliability","Quality","Service","Improvement"
                   ]}
-                  typeSpeed={50}
-                  backSpeed={50}
+                  typeSpeed={30}
+                  backSpeed={30}
                   loop
                 />
               </span>{" "}

@@ -5,7 +5,7 @@ import cartilageRefiling from "../assets/img/cartilageRefilling.png";
 
 const Services = () => {
   return (
-    <div className="max-w-7xl m-auto ">
+    <div className="max-w-7xl m-auto " id="service">
       <div className="">
         <div className="flex items-center justify-center">
           <p className="font-display text-5xl m-10 font-extrabold text-blue-700">
