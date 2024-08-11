@@ -12,7 +12,7 @@ const Products = () => {
         <p className="font-display text-5xl m-10 font-extrabold text-blue-700">
           Our Products
         </p>
-        <div className="grid grid-cols-3 gap-[80px] ">
+        <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 gap-10 px-10 md:px-4 ">
           <ProductItem
             src={canon}
             alt={"canon"}

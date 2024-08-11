@@ -9,13 +9,13 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(${logo})` }}
-      className="w-full h-[100vh] bg-cover  bg-no-repeat  "
+      className="w-full h-[100vh] bg-cover  bg-no-repeat"
     >
       <Header />
       <div className="flex flex-col items-center justify-center h-[70vh] max-w-7xl m-auto ">
         <div className="flex items-center justify-center w-[85%]  ">
-          <strong className="font-display text-8xl  leading-snug text-center mt-20 mb-4 text-blue-500 ">
-            <p className="tracking-tight">Transforming Printing with</p>
+          <strong className="font-display text-5xl sm:text-8xl   leading-snug text-center mt-20 mb-4 text-blue-500 ">
+            <p className="tracking-tight ">Transforming Printing <br /> with</p>
             <div>
               <span className="text-red-500">
                 <ReactTyped
