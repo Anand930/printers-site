@@ -4,7 +4,7 @@ import menuIcon from "../assets/img/more.png";
 import removeIcon from "../assets/img/close.png";
 
 const Header = () => {
-  const [visible, setVisible] = useState("flex");
+  const [visible, setVisible] = useState("none");
   return (
     <header className="py-2 mx-auto  md:max-w-4xl xl:max-w-7xl lg:max-w-5xl ">
       <div className="  py-1">
@@ -13,22 +13,22 @@ const Header = () => {
             Jay Mahadev <br />
             Printer Services
           </h1>
-          <div style={{display:`${visible}`}} className="sm:hidden  flex-col right-[20px] top-[20px] absolute bg-blue-950 p-8">
-            <div className="flex items-center justify-end" onClick={()=>{setVisible("none")}}>
+          <div style={{display:`${visible}`}} className="sm:hidden  flex-col right-[8px] top-[8px] absolute bg-blue-950 px-4  py-4 rounded-xl">
+            <div className="flex items-center justify-end mb-6  " onClick={()=>{setVisible("none")}}>
               <img className="w-5" src={removeIcon} alt="removeicon" />
             </div>
-            <NavLinks links="Products" linkName="product" />
-            <NavLinks links="Services" linkName="service" />
-            <NavLinks links="partners" linkName="partners" />
-            <NavLinks links="About" linkName="about" />
+            <NavLinks onClick={()=>setVisible("none")} links="Products" linkName="product" />
+            <NavLinks onClick={()=>setVisible("none")} links="Services" linkName="service" />
+            <NavLinks onClick={()=>setVisible("none")} links="partners" linkName="partners" />
+            <NavLinks onClick={()=>setVisible("none")} links="About" linkName="about" />
           </div>
           <ul className="md:flex gap-3 items-center hidden  ">
-            <NavLinks links="Products" linkName="product" />
-            <NavLinks links="Services" linkName="service" />
-            <NavLinks links="partners" linkName="partners" />
-            <NavLinks links="About" linkName="about" />
+            <NavLinks onClick={()=>{}} links="Products" linkName="product" />
+            <NavLinks onClick={()=>{}} links="Services" linkName="service" />
+            <NavLinks onClick={()=>{}} links="partners" linkName="partners" />
+            <NavLinks onClick={()=>{}} links="About" linkName="about" />
           </ul>
-          <div className="flex items-center justify-center w-20 mx-4 md:hidden" onClick={()=>{setVisible("flex")}}>
+          <div className="flex items-center justify-center w-8 mx-4 md:hidden" onClick={()=>{setVisible("flex")}}>
             <img src={menuIcon} alt="" />
           </div>
           <div className="md:flex hidden flex-col">
