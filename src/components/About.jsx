@@ -1,5 +1,10 @@
 import React from "react";
 import AboutItems from "./AboutItems";
+import service1 from '../assets/img/service1.jpg'
+import service2 from '../assets/img/service2.png'
+import service3 from '../assets/img/service3.jpg'
+import service4 from '../assets/img/service4.jpg'
+
 
 const About = () => {
   return (
@@ -21,6 +26,8 @@ const About = () => {
               Answer2={
                 "At Jay Mahadev Printer Services, we offer a wide range of solutions tailored to meet your printer and computer needs. Our core services include providing printers and computers (desktops/laptops) on a rental basis, ensuring you have the right equipment without the hassle of ownership. We also specialize in cartridge refilling, supply all necessary accessories for printers and computers, and offer software solutions. Whether you need an operating system installation or specific paid or unpaid software, we've got you covered with our reliable and efficient services."
               }
+              src1={service1}
+              src2={service2}
             />
             <AboutItems
               Question1="Where Are We Located and Where Do We Provide Services?"
@@ -31,6 +38,8 @@ const About = () => {
               Answer2={
                 "With over 10 years of experience in the business, Jay Mahadev Printer Services has the expertise to meet all your printer and computer needs. We are dedicated to making our customers happy with our services and are available 24/7 to help you. Just one call, and we’re ready to assist. We offer all the tech solutions a corporate office needs, all in one place, making us the reliable choice for your business."
               }
+              src1={service3}
+              src2={service4}
             />
           </div>
         </div>
