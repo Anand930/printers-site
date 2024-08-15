@@ -12,22 +12,22 @@ const Products = () => {
         <p className="font-display text-5xl m-10 font-extrabold text-blue-700">
           Our Products
         </p>
-        <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 gap-10 px-10 md:px-4 ">
+        <div className="grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 gap-28 px-10 md:px-4 ">
           <ProductItem
-            src={canon}
-            alt={"canon"}
-            productName={"canon printer"}
+            src={konica_minolta}
+            alt={"konica_minolta"}
+            productName={"konica minolta "}
           />
           <ProductItem src={hp} alt={"hp"} productName={"hp printer"} />
           <ProductItem
-            src={canon}
-            alt={"canon"}
-            productName={"canon printer"}
+            src={kyocera}
+            alt={"kyocera"}
+            productName={"kyocera printer"}
           />
           <ProductItem
             src={canon}
-            alt={"canon"}
-            productName={"canon printer"}
+            alt={"xerox"}
+            productName={"xerox printer"}
           />
           <ProductItem
             src={canon}

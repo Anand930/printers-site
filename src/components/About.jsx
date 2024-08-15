@@ -10,7 +10,7 @@ const About = () => {
             About Us
           </p>
         </div>
-        <div className="px-4 sm:px-20">
+        <div className="px-4 sm:px-5">
           <div>
             <AboutItems
               Question1="Who We Are?"

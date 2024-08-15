@@ -4,8 +4,8 @@ import cartilageImg from "../assets/img/cartilageRefilling.png";
 const AboutItems = ({Question1,Question2,Answer1,Answer2}) => {
   return (
     <div>
-        <div className="gap-3 py-4 md:flex  ">
-          <div className='md:w-[60%] w-full'>
+        <div className="gap-3 py-4 md:flex justify-between ">
+          <div className='md:w-[70%] w-full'>
             <h1 className="flex font-semibold text-3xl my-5 ">{Question1}</h1>
             <p>
             {Answer1}
@@ -15,8 +15,8 @@ const AboutItems = ({Question1,Question2,Answer1,Answer2}) => {
             <img src={cartilageImg} alt="" />
           </div>
         </div>
-        <div className="md:flex flex-row-reverse items-center justify-center gap-10 py-14 ">
-          <div className='md:w-[60%]'>
+        <div className="md:flex flex-row-reverse items-center justify-between gap-10 py-14 ">
+          <div className='md:w-[70%]'>
             <h1 className="flex font-semibold text-3xl my-5">{Question2}</h1>
             <p>
             {Answer2}

@@ -9,7 +9,7 @@ const Header = () => {
     <header className="py-2 mx-auto  md:max-w-4xl xl:max-w-7xl lg:max-w-5xl ">
       <div className="  py-1">
         <nav className="flex justify-between items-center  lg:max-w-7xl m-auto ">
-          <h1 className="font-extrabold mx-2 text-red-500 bg-blue-100 font-logo text-sm text-center tracking-widest lg:text-2xl md:text-xl lg:ml-5 xl:text-3xl sm:text-lg">
+          <h1 className="font-extrabold mx-2 text-red-500 bg-blue-100 rounded-lg p-1 font-logo text-sm text-center tracking-widest lg:text-2xl md:text-xl lg:ml-5 xl:text-3xl sm:text-lg">
             Jay Mahadev <br />
             Printer Services
           </h1>
@@ -31,8 +31,8 @@ const Header = () => {
           <div className="flex items-center justify-center w-8 mx-4 md:hidden" onClick={()=>{setVisible("flex")}}>
             <img src={menuIcon} alt="" />
           </div>
-          <div className="md:flex hidden flex-col">
-            <div className="flex  lg:mr-5 items-center justify-center">
+          <div className="md:flex hidden flex-col bg-blue-100 p-1 rounded-xl">
+            <div className="flex  lg:mr-5 items-center justify-center ">
               {/* <img src={iphone} width={"30px"} alt="" /> */}
               <p className="text-red-500 font-bold  sm:text-base text-xs">
                 +91 &nbsp; 9812149626
